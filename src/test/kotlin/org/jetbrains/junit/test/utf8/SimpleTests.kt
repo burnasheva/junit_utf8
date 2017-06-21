@@ -6,7 +6,8 @@ import kotlin.test.assertEquals
 class SimpleTests {
     @Test
     fun firstTest(){
-        var grüß = "some string"
-        assertEquals("Grüß Gott", "Grüß Gott")
+        var grüß = "some string öü"
+        println(grüß)
+        assertEquals("Grüß Gott", "Grüß Gott!", grüß)
     }
 }
